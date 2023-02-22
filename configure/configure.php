@@ -41,7 +41,10 @@ function custom_setup() {
 	remove_image_size( '2048x2048' );
 
 	// Custom image sizes
-	// add_image_size( '424x424', 424, 424, true );
+	 add_image_size( '450x450', 450, 450, true );
+     add_image_size( '450x600', 450, 600, true );
+     add_image_size( '80x80', 80, 80, true );
+    add_image_size( '250x250', 250, 250, true );
 	// add_image_size( '1920', 1920, 9999 );
 }
 add_action('after_setup_theme', 'custom_setup');
